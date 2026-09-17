@@ -99,8 +99,8 @@ export const projects: Project[] = [
   {
     id: "nagar-register",
     title: "Nagar Register",
-    description: "Project entry. Detailed project information should be added from the verified project material.",
-    technologies: ["OpenCV", "Python", "FastAPI", "Redis","Bull Mq", "transformers"],
+    description: "An AI-verified civic issue reporting platform where citizens can report problems, attach evidence, and share the issue's GIS location. Designed as a social-media-like reporting network that makes local civic issues visible, verifiable, and easier to track..",
+    technologies: ["OpenCV", "Python", "FastAPI", "Redis","Bull Mq", "transformers", "GIS"],
     image: "",
     featured: true,
   },
