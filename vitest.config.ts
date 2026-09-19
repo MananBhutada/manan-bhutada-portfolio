@@ -14,7 +14,7 @@ export default defineConfig({
     globals: true,
     setupFiles: ["./vitest.setup.ts"],
     css: false,
-    // vmForks works on Windows where the default pool times out spawning workers.
+    // vmForks works on Windows where the default pool times out spawning workers...........
     pool: "vmForks",
     isolate: false,
     // Module reload + JSDOM init is slow on Windows; raise default timeouts.
