@@ -30,7 +30,7 @@ export default defineConfig({
         "src/types/**",
         // 3D / WebGL — covered by Playwright E2E, not jsdom......................
         "src/components/three/**",
-        // App router metadata / framework files
+        // App router metadata / framework files.............
         "src/app/layout.tsx",
         "src/app/page.tsx",
         "src/app/providers.tsx",
