@@ -28,7 +28,7 @@ export default defineConfig({
       exclude: [
         "src/**/*.d.ts",
         "src/types/**",
-        // 3D / WebGL — covered by Playwright E2E, not jsdom
+        // 3D / WebGL — covered by Playwright E2E, not jsdom......................
         "src/components/three/**",
         // App router metadata / framework files
         "src/app/layout.tsx",
